@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Railway:300,700');
+@import './variables';
+
+body {
+  background: $blue-main;
+  padding: 3em;
+  font-family: 'Railway', 'Arial';
+  color: $white-main;
+}
+ul {
+  list-style-type: none;
+  margin: 0 0 2en 0;
+  padding: 0;
+}
+ul li {
+  display: inline;
+  margin-right: 30px;
+}
+ul li a {
+  font-size: 1.5em;
+}
+a {
+  color: $white-main;
+  text-decoration: none;
+}
