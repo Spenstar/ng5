@@ -2,10 +2,10 @@
 @import './variables';
 
 body {
-  background: $blue-main;
+  background: $primary;
   padding: 3em;
   font-family: 'Railway', 'Arial';
-  color: $white-main;
+  color: $white;
 }
 ul {
   list-style-type: none;
@@ -20,6 +20,6 @@ ul li a {
   font-size: 1.5em;
 }
 a {
-  color: $white-main;
+  color: $white;
   text-decoration: none;
 }
